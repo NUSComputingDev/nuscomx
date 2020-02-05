@@ -42,8 +42,6 @@
 .container-sports .sports img {
   height: 10rem;
   margin: 0 2rem;
-  object-fit: cover;
-  object-position: top center;
   width: 15rem;
 }
 
@@ -101,7 +99,7 @@
 }
 
 .container-events .event {
-  background-color: #fcfcfc;
+  background-color: #f0f0f0;
   color: #000000;
   cursor: pointer;
   margin: 0 0.5rem 1rem 0.5rem;
@@ -117,8 +115,14 @@
   display: block;
   height: 10rem;
   object-fit: cover;
+  object-position: center !important;
   width: 15rem;
   margin: 0 0rem;
+}
+
+.borderized {
+  border-style: double !important;
+  border-size: 5px !important;
 }
 
 .container-events .event .description {

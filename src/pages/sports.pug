@@ -6,6 +6,12 @@ mixin event(imageId)
     .description
       block
 
+mixin eventborderized(imageId)
+  .event(data-purl=`${baseUrl}/static/images/events/${imageId}/poster.jpg`)
+    img(src=`${baseUrl}/static/images/events/${imageId}/thumbnail.jpg`, alt="").borderized
+    .description
+      block
+
 block head
   link(rel="stylesheet", href=`${baseUrl}/static/css/sports.css`)
   script(src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit")
@@ -26,12 +32,11 @@ block main
       .contents
         h1 Events
         .container-events
-          +event("1819/fop_2019_recruitment")
+          +eventborderized("sports1920/night_cycling")
             h1 SoC Night Cycling 2020
             h2 21 Feb 2020
             p.
-              Join us this summer as an OGL, Househead, Helper or Medic and look forward to a summer
-              filled with fun, laughter and newly forged friendships! Sign up now <a href="http://bit.ly/fop19ohh">here.</a>
+              Participate and feast at Bedok85 Fengshan, have dessert under the stars 🤩  at Marina Barrage and enjoy the ride with the night breeze
         
         p Contact Sidney @ 91392266 for any enquiries. 
 
