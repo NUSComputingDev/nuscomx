@@ -120,11 +120,6 @@
   margin: 0 0rem;
 }
 
-.borderized {
-  border-style: double !important;
-  border-size: 5px !important;
-}
-
 .container-events .event .description {
   padding: 1rem;
 }
