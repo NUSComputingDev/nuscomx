@@ -98,7 +98,7 @@
 }
 
 .container-events .event {
-  background-color: #ffffff;
+  background-color: #fcfcfc;
   color: #000000;
   cursor: pointer;
   margin: 0 0.5rem 1rem 0.5rem;
@@ -115,6 +115,7 @@
   height: 10rem;
   object-fit: cover;
   width: 15rem;
+  margin: 0 0rem;
 }
 
 .container-events .event .description {
