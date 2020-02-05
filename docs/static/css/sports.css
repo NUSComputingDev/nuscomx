@@ -2,6 +2,15 @@
   background-image: url("../images/sports/banner.jpeg");
 }
 
+.hero .description {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hero .description h1 {
+  font-weight: bold;
+}
+
 .container-sports .sports {
   align-items: center;
   background-color: #ffffff;
