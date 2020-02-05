@@ -1,5 +1,11 @@
 extends ../templates/base.pug
 
+mixin event(imageId)
+  .event(data-purl=`${baseUrl}/static/images/events/${imageId}/poster.jpg`)
+    img(src=`${baseUrl}/static/images/events/${imageId}/thumbnail.jpg`, alt="")
+    .description
+      block
+
 block head
   link(rel="stylesheet", href=`${baseUrl}/static/css/sports.css`)
   script(src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit")
@@ -16,16 +22,14 @@ block main
   
   .container-sports
     .sports
-      img(src=`${baseUrl}/static/images/guides/special_programmes.svg`, alt="")
-      .contents
-        h1 Events
-        
-        a(class=`captcha`, href=`#`) SoC Night Cycling 2020
-          span(data-name=`badminton`)
-        
-        br
-
-        p Contact Sidney @ 91392266 for any enquiries. 
+      h1 Events
+      .container-events
+        +event("1819/fop_2019_recruitment")
+          h1 FOP 2019 Recruitment
+          h2 14 Jan 19 &ndash; 25 Jan 19
+          p.
+            Join us this summer as an OGL, Househead, Helper or Medic and look forward to a summer
+            filled with fun, laughter and newly forged friendships! Sign up now <a href="http://bit.ly/fop19ohh">here</a>.
 
 
     .sports
