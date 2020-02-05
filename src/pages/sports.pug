@@ -5,99 +5,107 @@ block head
   script(src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit")
   script(src=`${baseUrl}/static/js/sports.js`)
 block main
+  .hero
+    h1.display-3 Hello, world!
+
   .heading
     h1 Sports
     p.
       Listed here are guides, links to various platforms and FAQs which will be useful at different
       stages of your undergraduate life. Feel free to explore!
   .container-sports
-    .sports
-      img(src=`${baseUrl}/static/images/guides/academics.svg`, alt="")
-      .contents
-        h1 Links of Interest Groups
 
     .sports
-      img(src=`${baseUrl}/static/images/guides/platforms.svg`, alt="")
+      img(src=`${baseUrl}/static/images/guides/special_programmes.svg`, alt="")
       .contents
-        h1 IFG
+        h1 Events
         
-        a(class=`captcha`, href=`#`) Badminton
+        a(class=`captcha`, href=`#`) SoC Night Cycling 2020
           span(data-name=`badminton`)
-        br
-        a(class=`captcha`, href=`#`) Basketball (M)
-          span(data-name=`basketballm`)
-        br
-        a(class=`captcha`, href=`#`) Basketball (F)
-          span(data-name=`basketballf`)
-        br
-        a(class=`captcha`, href=`#`) Contract Bridge
-          span(data-name=`bridge`)
-        br
-        a(class=`captcha`, href=`#`) Dodgeball
-          span(data-name=`dodgeball`)
-        br
-        a(class=`captcha`, href=`#`) DoTA 2
-          span(data-name=`dota2`)
-        br
-        a(class=`captcha`, href=`#`) Floorball (M)
-          span(data-name=`floorballm`)
-        br
-        a(class=`captcha`, href=`#`) Floorball (F)
-          span(data-name=`floorballf`)
-        br
-        a(class=`captcha`, href=`#`) Handball (M)
-          span(data-name=`handballm`)
-        br
-        a(class=`captcha`, href=`#`) Handball (F)
-          span(data-name=`handballf`)
-        br
-        a(class=`captcha`, href=`#`) Chess
-          span(data-name=`chess`)
-        br
-        a(class=`captcha`, href=`#`) Netball
-          span(data-name=`netball`)
-        br
-        a(class=`captcha`, href=`#`) Reversi
-          span(data-name=`reversi`)
-        br
-        a(class=`captcha`, href=`#`) Soccer (M)
-          span(data-name=`soccerm`)
-        br
-        a(class=`captcha`, href=`#`) Soccer (F)
-          span(data-name=`soccerf`)
-        br
-        a(class=`captcha`, href=`#`) Table Tennis
-          span(data-name=`tabletennis`)
-        br
-        a(class=`captcha`, href=`#`) Tchoukball
-          span(data-name=`tchoukball`)
-        br
-        a(class=`captcha`, href=`#`) Tennis
-          span(data-name=`tennis`)
-        br
-        a(class=`captcha`, href=`#`) Touch Rugby
-          span(data-name=`touchrugby`)
-        br
-        a(class=`captcha`, href=`#`) Track (M)
-          span(data-name=`trackm`)
-        br
-        a(class=`captcha`, href=`#`) Track (F)
-          span(data-name=`trackf`)
-        br
-        a(class=`captcha`, href=`#`) Ultimate Frisbee
-          span(data-name=`frisbee`)
-        br
-        a(class=`captcha`, href=`#`) Volleyball (M)
-          span(data-name=`volleyballm`)
-        br
-        a(class=`captcha`, href=`#`) Volleyball (F)
-          span(data-name=`volleyballf`)
-        br
-        br
-        br
-        span Contact Kerwin @ 82220812 for any enquiries or interest in taking up any Captain / Vice-Captain role
-        br
         
+        br
+
+        p Contact Sidney @ 91392266 for any enquiries. 
+
+
+    .sports
+      .contents
+        h1 Inter-Faculty Games (IFG)
+        .row
+          .col-sm-6
+            a(class=`captcha`, href=`#`) Badminton
+              span(data-name=`badminton`)
+            br
+            a(class=`captcha`, href=`#`) Basketball (M)
+              span(data-name=`basketballm`)
+            br
+            a(class=`captcha`, href=`#`) Basketball (F)
+              span(data-name=`basketballf`)
+            br
+            a(class=`captcha`, href=`#`) Contract Bridge
+              span(data-name=`bridge`)
+            br
+            a(class=`captcha`, href=`#`) Dodgeball
+              span(data-name=`dodgeball`)
+            br
+            a(class=`captcha`, href=`#`) DoTA 2
+              span(data-name=`dota2`)
+            br
+            a(class=`captcha`, href=`#`) Floorball (M)
+              span(data-name=`floorballm`)
+            br
+            a(class=`captcha`, href=`#`) Floorball (F)
+              span(data-name=`floorballf`)
+            br
+            a(class=`captcha`, href=`#`) Handball (M)
+              span(data-name=`handballm`)
+            br
+            a(class=`captcha`, href=`#`) Handball (F)
+              span(data-name=`handballf`)
+            br
+            a(class=`captcha`, href=`#`) Chess
+              span(data-name=`chess`)
+            br
+            a(class=`captcha`, href=`#`) Netball
+              span(data-name=`netball`)
+          .col-sm-6
+            a(class=`captcha`, href=`#`) Reversi
+              span(data-name=`reversi`)
+            br
+            a(class=`captcha`, href=`#`) Soccer (M)
+              span(data-name=`soccerm`)
+            br
+            a(class=`captcha`, href=`#`) Soccer (F)
+              span(data-name=`soccerf`)
+            br
+            a(class=`captcha`, href=`#`) Table Tennis
+              span(data-name=`tabletennis`)
+            br
+            a(class=`captcha`, href=`#`) Tchoukball
+              span(data-name=`tchoukball`)
+            br
+            a(class=`captcha`, href=`#`) Tennis
+              span(data-name=`tennis`)
+            br
+            a(class=`captcha`, href=`#`) Touch Rugby
+              span(data-name=`touchrugby`)
+            br
+            a(class=`captcha`, href=`#`) Track (M)
+              span(data-name=`trackm`)
+            br
+            a(class=`captcha`, href=`#`) Track (F)
+              span(data-name=`trackf`)
+            br
+            a(class=`captcha`, href=`#`) Ultimate Frisbee
+              span(data-name=`frisbee`)
+            br
+            a(class=`captcha`, href=`#`) Volleyball (M)
+              span(data-name=`volleyballm`)
+            br
+            a(class=`captcha`, href=`#`) Volleyball (F)
+              span(data-name=`volleyballf`)
+        br
+        p Contact Terry @ 91504003 for any enquiries or interest in taking up any Captain / Vice-Captain role
 
     .sports
       .contents
@@ -143,24 +151,19 @@ block main
         br
 
     .sports
-      img(src=`${baseUrl}/static/images/guides/special_programmes.svg`, alt="")
-      .contents
-        h1 Events
-
-    .sports
       img(src=`${baseUrl}/static/images/guides/overseas_opportunities.svg`, alt="")
       .contents
         h1 Photos
         br
         
-        a(class=`captcha`, href=`#`) Night Cycling
+        a(class=`captcha`, href=`#`) SoC Night Cycling 2020
         br
         br
         
-        a(class=`captcha`, href=`#`) Sports Carnival
+        a(class=`captcha`, href=`#`) SoC Sports Carnival 2020
         br
         br
         
-        a(class=`captcha`, href=`#`) IFG 18
+        a(class=`captcha`, href=`#`) SoC IFG 2020
         br
         br

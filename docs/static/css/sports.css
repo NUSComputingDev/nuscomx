@@ -1,3 +1,7 @@
+.hero {
+  background-image: url("../images/sports/banner.jpeg");
+}
+
 .container-sports .sports {
   align-items: center;
   background-color: #ffffff;
