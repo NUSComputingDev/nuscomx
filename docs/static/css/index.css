@@ -1,3 +1,7 @@
+img.banner {
+  
+}
+
 .container-events {
   display: flex;
   flex-wrap: wrap;
@@ -44,11 +48,6 @@
   font-weight: 300;
   font-size: 0.8rem;
   margin-top: 0.3rem;
-}
-
-.hero {
-  background-image: url("../images/index/SocHandbook.jpg");
-  background-position: 65%;
 }
 
 .modal {

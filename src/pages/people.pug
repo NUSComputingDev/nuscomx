@@ -1,4 +1,4 @@
-extends ../../templates/base.pug
+extends ../templates/base.pug
 
 mixin member(name, wing, role)
   .member
@@ -10,7 +10,7 @@ mixin member(name, wing, role)
       h3 #{role}
 
 block head
-  link(rel="stylesheet", href=`${baseUrl}/static/css/about/mc.css`)
+  link(rel="stylesheet", href=`${baseUrl}/static/css/people.css`)
 
 block main
   .banner

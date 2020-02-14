@@ -10,16 +10,10 @@ block head
   link(rel="stylesheet", href=`${baseUrl}/static/css/index.css`)
 
 block main
-  .hero
-    .description
-      h1 Computing Club’s Handbook
-      p.
-        Hello there! Are you perhaps new here in SoC, or maybe even Singapore? Feeling a bit lost?
-        Not too sure where to go and what's going on?
-      p.
-        Well, fret not! SoCCat is here to guide you about in SoC, NUS and Singapore! Learn how to
-        survive in SoC while having fun with our new Computing Club’s Handbook available for download right here!
-      a(href=`${baseUrl}/static/files/SoC-Handbook.pdf`, target="_blank") Download now
+  .container-fluid.px-0
+    .row
+      img.w-100(src=`${baseUrl}/static/images/index/banner.png`)
+
   .heading
     h1 Events
     p.

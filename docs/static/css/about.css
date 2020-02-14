@@ -1,15 +1,38 @@
-.hero {
+.container-contents .content {
+  background-color: #ffffff;
+  color: #000000;
   margin-bottom: 1rem;
+  padding: 2rem;
 }
 
-.hero-club {
-  background-image: url("../images/about/club.jpg");
-  background-position: center center;
+@media (min-width: 480px) {
+  .container-contents .content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 25rem;
+  }
 }
 
-.hero-mc {
-  background-image: url("../images/about/mc.jpg");
-  background-position: center center;
-  min-height: 85vh;
-  padding: 24rem 1rem 1rem 1rem;
+@media (min-width: 768px) {
+  .container-contents .content {
+    width: 43rem;
+  }
+}
+
+.container-contents .content h1 {
+  font-size: 1.5rem;
+}
+
+.container-contents .content p {
+  margin-top: 0.8rem;
+}
+
+.container-contents .content p a {
+  color: #222222;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.container-contents .content p a:hover {
+  color: #555555;
 }
