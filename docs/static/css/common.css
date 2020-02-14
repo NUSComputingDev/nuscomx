@@ -41,10 +41,14 @@ header img {
   }
 }
 
+.navigation {
+  max-width: 
+}
+
 header .navigation a {
   color: #000000;
   font-size: 0.8rem;
-  margin: 0 0.3rem;
+  margin: 0 0rem;
   text-decoration: none;
 }
 
